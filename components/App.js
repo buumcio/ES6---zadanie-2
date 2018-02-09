@@ -44,7 +44,7 @@ App = React.createClass({
                     }
                  };
                 xhr.onerror = function() {
-                    reject(console.log('Wystąpił błąd podczas ładowania obrazku'));
+                    reject(console.log('Wystąpił błąd podczas ładowania obrazka!'));
                     };
                 xhr.send();
         });  
